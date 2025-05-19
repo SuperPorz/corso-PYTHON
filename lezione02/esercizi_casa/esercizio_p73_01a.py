@@ -21,6 +21,8 @@ while check == True:
             altriNumeri.append(y)   # buttiamo gli elementi che non contengono "p" dentro la lista ALTRI NUMERI
             continue
 
+            
+
     z = ''.join(altriNumeri).replace("p", '')     # controlliamo che gli altri elementi siano tutti numeri; se TRUE si esce dal ciclo WHILE
     if z.isdigit() == True:
         check = False
