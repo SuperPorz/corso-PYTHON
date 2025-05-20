@@ -1,0 +1,30 @@
+N° IMPIEGATI = 4
+
+imp1
+	giorni = 3
+		giorno 1 = 6 ore
+		giorno 2 = 12 ore
+		giorno 3 = 4 ore
+
+imp2
+	giorni = 4
+		giorno 1 = 4 ore
+		giorno 2 = 8 ore
+		giorno 3 = 8 ore
+		giorno 4 = 2 ore
+
+imp3
+	giorni = 2
+		giorno 1 = 8 ore
+		giorno 2 = 8 ore
+
+imp4
+	giorni = 3
+		giorno 1 = 8 ore
+		giorno 2 = 8 ore
+		giorno 3 = 4 ore
+
+listaImpiegati = [1,2,3,4]
+listaGiorni = [1,2,3 ,1,2,3,4 , 1,2 , 1,2,3]
+listaGiorni = [6,12,4 ,4,8,8,2 , 8,8 , 8,8,4]
+		
