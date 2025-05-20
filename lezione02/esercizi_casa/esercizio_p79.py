@@ -2,7 +2,7 @@
 ####  PRIMA PARTE - IMPIEGATO 1 #####
 #####################################
 
-#input iniziale-3
+#input iniziale
 print("Inserisci quanti GIORNI ha lavorato Impiegato 1: (massimo 3 giorni)")
 input1 = input()
 int_input1 = int(input1)
