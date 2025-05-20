@@ -13,7 +13,7 @@ c = listaStringa[2]
 print(a.capitalize(), b.capitalize(), c.capitalize())
 
 
-##### ESERCIZIO 3, pag. 73 SLIDES PYTHON-1: printa la stringa dell'esercizio precedente
+##### ESERCIZIO 3, pag. 73 SLIDES PYTHON-1: printa la stringa dell'esercizio precedente (ultima parte)
 z = stringa.replace(" ", "")
 print ("La lunghezza della stringa è: ", len(z))
 
