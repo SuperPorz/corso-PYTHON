@@ -1,0 +1,22 @@
+STRUTTURE DATI PYTHON - LISTE
+
+array (non ci sono in python): sono una collezione di dati, ma tutti i dati al suo interno sono ordinati e oggetti
+gli array non possono crescere ne diminuire: no add, no remove
+
+PYTHON-->LISTE
+- sono collezioni ORDINATE di informazioni accessibili tramite indice; 
+- ammettono DATI DISOMOGENEI 
+- sono MUTABILI: in qualsiasi momento (anche runtime) si possono aggiungere e/o togliere elementi, 
+  svuotare ecc -->molto flessifibili
+- sono AMMESSI elementi DUPLICATI
+
+sintassi:  myLIST = [oggetto1, oggetto2, ...]
+
+1° modo:  lista_1 = [ ]  #lista vuota
+
+2° modo:  lista_2 = list()  #lista definita dalla classe "list"
+
+
+
+
+

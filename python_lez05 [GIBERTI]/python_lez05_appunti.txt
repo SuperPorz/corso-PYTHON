@@ -1,0 +1,164 @@
+PYTHON - LEZIONE 5 - GIBERTI
+
+
+### TUPLE ###
+
+TUPLA: lista fissa immutabile, non si cambia ->esempio: tupla = (1,2,3,4), non ha metodi, unica 
+cosa fattibile: creare nuove tuple. Tuple molto veloci ed efficienti in termini di esecuzione macchina
+
+immutabilità: tupla[1] = 'ciao' -->restituisce errore se cerco di accedere all'elemento di indice 1 e 
+				   assegnargli un valore
+si può fare concatenazione: tupla1 = (1,2) e tupla2 = (3,4,5) --> tuplaSomma = tupla1 + tupla2 = (1,2,3,4,5)
+
+tupla con solo elemento: va scritta con una virgola -> tupla = ('ciao',)
+
+### DIZIONARI ###
+
+i DIZIONARI sono collezioni mutabili e ordinate (ordinate dal 3.6 in poi) di coppie "CHIAVE => VALORE". Il diz
+è una classe con vari METODI
+
+Sintassi: 
+
+dizionario = {}   (diz. vuoto)
+
+diz = {'A': 1, 'B': 2, 'C': 3}
+
+accesso agli elementi: diz['A'] = 1 (restituisce valore di A)
+
+diz['B'] = (1,3,6) --->print(diz) --> risultato:   {'A': 1, 'B': (1,3,6), 'C': 3}
+
+esempio metodo per printare le chiavi: print(diz.keys()) --> risultato: {'A', 'B', 'C'}
+
+(per altri metodi, guarda materiale prof)
+
+
+
+### SETS ###
+
+un set in python è una collezione non ordinata di oggetti, in cui non sono ammessi DUPLICATI. esempio la lista 
+delle chiavi di un dizonario è un SET. (si può dire che è come un dizionario ma solo con chiavi, senza valori).
+Non sono ordinati.
+______________________________________________
+sintassi: 
+
+set_vuoto = set()
+
+l = [1,2,3,3,3]
+
+s = set(l) #rimuove duplicati
+
+print(s) --> risultato:   {1, 2, 3}
+______________________________________________
+
+sintassi dichiarativa: 
+
+set1 = {'a', 'b', 'c'}
+print(set1) --> risultato: {'c', 'b', 'a'}   (elementi spostati da python per ricordare che set non sono ord.?)
+
+
+
+### FUNZIONI ###
+
+## BUILT-IN FUNCTIONS ##
+
+uns funzione in py rappresenta un blocco di codice da eseguire tutte le volte che viene richiamato. Può non avere parametri,
+avere numero fisso di parametri, oppure numero ARBITRARIO di parametri. 
+Può restituire qualcosa oppure NIENTE (void, non void).
+Python, di base, implementa al suo interno un certo num. di funzioni dette innate o dette built-in. Le vedremo 
+divise per macro-argomenti; 
+
+
+*Primo argomento: funz. matematiche e similari
+
+abs(x) ->restituisce valore assoluto di X (reale o complesso), non cambia la variabile originale
+
+round(numero, digits) ->restituisce il numero arrotondato ad un num. di cifre indicate dal param. digits
+			(se digits non viene indicato, la funz. restituisce un INTERO)
+
+sum(iterator, start) ->restituisce la somma degli elementi di un iterator, start indica il numero da cui partire.
+		       funziona con liste
+
+a = (1,2,3,4,5,6) 
+-> print(sum(a)) = 21
+-> print(sum(a, 10)) = 31
+
+
+pow(5,2) = 5^2 = 25 (funzione esponente) pow(base, esponente)
+
+
+eval() -> valuta un'espressione e, se è valida "pythonisticamente", ne restituisce il risultato. E' usata in 
+	  tanti modi.
+
+
+**Secondo argomento: funz. per le stringhe
+remind: le stringhe in python sono classi, quindi hanno metodi (vedi appunti prof per approfondimento)
+
+
+**Terzo argomento: funz. per liste e tuple
+
+all() e any() agiscono su un argomento iterabile e restituiscono true o false a seconda che tutti o almeno uno
+degli elementi siano true
+
+
+sorted() ->restituisce la sequenza ordinata in senso crescente; con reverse = True si inverte l'ordine, ma è
+	   un parametro non obbligatorio
+
+
+### FUNZIONE LAMBDA ###
+
+è una funzione anonima con definizione "al volo"; viene definita tramite particolare sintassi:
+
+y = lambda x: x**2
+
+utilità: specie in temi avanzati, non per un corso base
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
